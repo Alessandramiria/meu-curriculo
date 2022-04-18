@@ -1,0 +1,152 @@
+* {
+  box-sizing: inherit;
+}
+
+body
+{
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-size: 12px; */
+  color: var(--color-font-primary);
+  background: var(--color-background);
+}
+
+/* colors: */
+body, h1, h2, h3, h4, h5, h6, p, form, ul, ol, li
+{
+  margin: 0;
+  padding: 0;
+}
+
+/* background image */
+body 
+{
+  background-image: var(--background-image);
+  background-position: center;
+  background-repeat: repeat;
+  font-size: 15px;
+}
+
+a.nolink
+{
+  text-decoration: none;
+  outline: none;
+}
+
+.print-background
+{
+  height: 297mm;
+  width: 210mm;
+  object-fit: cover;
+  position: absolute;
+  display: none;
+}
+.space
+{
+  margin: 20px auto;
+  position: relative;
+  width: 900px;
+  border: 2px solid var(--color-border-primary);
+  padding: 50px 10px;
+  /* overflow: auto; */
+  background-color: var(--color-background);
+  min-height: calc(100vh - 140px);
+}
+.space:after
+{
+  content: '';
+  display: table;
+  clear: both;
+  /* white-space: pre; */
+}
+.space::before
+{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50px;
+  bottom: 50px;
+  width: 3px;
+  background-color: var(--color-border-primary);
+  left: 310px;
+}
+
+.fl-left
+{
+  float: left;
+  width: 200px;
+  min-height: 10px;
+  padding: 0 50px 0 50px;
+  border-right: 3px solid var(--color-border-primary);
+  min-height: calc(100%);
+}
+
+.main
+{
+  margin-left: 300px;
+  min-height: 20px;
+  width: calc(100% - 320px);
+  padding-right: 20px;
+}
+a
+{
+  color: inherit;
+}
+
+/* EFFECTS */
+.grayscale {filter: grayscale(100%);}
+
+
+
+
+/* FLEX */
+.flex-column
+{
+  /* flex-direction: row; */
+  /* justify-content: space-evenly; */
+  display: flex;
+}
+.flex-column > div
+{
+  flex: 1 1 0px;
+}
+
+
+.clearfix::after
+{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+
+@media print
+{
+  /* html, body
+  {
+    --width: 100vw;
+    --height: 100vh;
+    width: var(--width);
+    height: var(--height);
+  } */
+  body
+  {
+    background-position: center;
+    background-repeat: repeat;
+    max-height: calc(100% - 60px);
+    position: absolute;
+    top: 0;right: 0;left: 0;bottom: 0;
+    font-size: 15px;
+  }
+  .space
+  {
+    width: calc(100vw - 60px);
+    max-height: calc(100vh - 2000px);
+    /* margin: auto; */
+  }
+  .print-background
+  {
+    display: block;
+  }
+}
