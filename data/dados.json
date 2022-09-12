@@ -6,7 +6,6 @@
         {"name":"profile-pic","content":"img/photo_profile.jpg"},
         {"name":"profile-title","content":"Alessandra Miria"},
         {"name":"profile-dados","content":[
-          {"title":"Nascimento","value":"18 de maio de 2000"},
           {"title":"Endereço","value":"Rua Manoel Gonçalves 11, Washington Pires - Ibirité MG"},
           {"title":"Telefone","value":"(31) 97121-2131"},
           {"title":"E-mail","value":"alessandramiri6@gmail.com"}
@@ -19,17 +18,17 @@
         {"name":"formacao","content":[
           {"data":"16-18","area":"Ensino Médio - Completo","local":"Escola Estadual João Paulo I"},
           {"data":"21-23","area":"Analise e desenvolvimento de sistemas","local":"PUC Minas"},
-          {"data":"22-24","area":"Design Grafico","local":"Faculdade das Américas (FAM)"}
+          {"data":"22-24","area":"Administração","local":"UNA"}
         ]},
         {"name":"experiencia","content":[
           {"data":"20-21","cargo":"Repesentante de Atendimento ao Cliente","area":"AlmavivA - Tempo Integral","local":"Belo Horizonte, Minas Gerais, Brasil"},
           {"data":"20-21","cargo":"Operadora de Caixa","area":"C&A","local":"Contagem, Minas Gerais, Brasil"},
-          {"data":"20-21","cargo":"Aprendiz Administrativo","area":"ZARA","local":"Belo Horizonte, Minas Gerais, Brasil"}
+          {"data":"22-22","cargo":"Aprendiz Administrativo","area":"ZARA","local":"Belo Horizonte, Minas Gerais, Brasil"},
+          {"data":"22-","cargo":"Estágio em Governança TI","area":"Araujo","local":"Belo Horizonte, Minas Gerais, Brasil"}
         ]},
         {"name":"habilidades","content":[
           {"name":"illustrator","level":[1,0,0,0,0]},
-          {"name":"indesign","level":[1,0,0,0,0]},
-          {"name":"adobe flash","level":[1,0,0,0,0]},
+          {"name":"Adobe XD","level":[1,1,1,0,0]},
           {"name":"html","level":[1,1,1,0,0]},
           {"name":"css","level":[1,1,1,0,0]},
           {"name":"javascript","level":[1,1,1,0,0]},
@@ -37,14 +36,16 @@
           {"name":"Office","level":[1,1,1,1,0]},
           {"name":"Scrum","level":[1,1,1,0,0]},
           {"name":"Blender","level":[1,1,0,0,0]},
-          {"name":"Android Dev","level":[1,1,0,0,0]},
-          {"name":"IOS Dev","level":[1,1,0,0,0]},
-          {"name":"Linux","level":[1,1,0,0,0]},
-          {"name":"UML","level":[1,1,0,0,0]},
-          {"name":"C#","level":[1,0,0,0,0]},
-          {"name":"PHP","level":[1,0,0,0,0]},
           {"name":"UX","level":[1,1,1,1,0]},
-          {"name":"UI","level":[1,1,1,1,0]}
+          {"name":"UI","level":[1,1,1,1,0]},
+          {"name":"Kanban","level":[1,1,1,0,0]},
+          {"name":"figma","level":[1,1,1,1,1]},
+          {"name":"Canva","level":[1,1,0,0,0]},
+          {"name":"Marvel","level":[1,1,0,0,0]},
+          {"name":"Power bi","level":[1,1,0,0,0]},
+          {"name":"Azure","level":[1,1,1,1,0]},
+          {"name":"kibana","level":[1,1,1,1,0]},
+          {"name":"prometheus","level":[1,1,1,1,0]}
         ]}
       ]
     }
